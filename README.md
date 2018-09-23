@@ -8,13 +8,13 @@ We've got three modules in this demo project, two Consumer modules and one Provi
 * consumer-filter, same as the consumer module but shows you the usage of Dubbo's SPI extension point.
 
 ## Run the demo
-1. Start the Provider
+1. Start the Provider  
 Enter the provider module, run
 ```bash
 ./mvnw spring-boot:run
 ```
 
-2. Start the Consumer
+2. Start the Consumer  
 Enter one of the consumer module, run
 ```bash
 ./mvnw spring-boot:run
