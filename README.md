@@ -3,7 +3,7 @@ A simply spring boot driven Dubbo demo project.
 
 ## Introduction
 We've got three modules in this demo project, two Consumer modules and one Provider module:
-* provider, known as the server side of Dubbo, which provides the Dubbo service and register service to the Registry.
+* provider, known as the server side of Dubbo, which will provide the Dubbo service and register service to the Registry.
 * consumer, known as the client side of Dubbo, which can find and consume the service provided by provider automatically by subscribing to the same Registry.
 * consumer-filter, same as the consumer module but shows you the usage of Dubbo's SPI extension point.
 
