@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class ServerDemoApplication {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         SpringApplication.run(ServerDemoApplication.class, args);
+        System.in.read();
     }
 }
